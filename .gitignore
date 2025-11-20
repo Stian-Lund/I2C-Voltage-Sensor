@@ -1,0 +1,50 @@
+########################
+# STM32CubeIDE project #
+########################
+
+# CubeIDE workspace metadata (keep project-level files)
+.metadata/
+STM32CubeIDE/.metadata/
+STM32CubeIDE/workspace_*/
+
+# Build output
+Debug/
+Release/
+build/
+out/
+
+# Generated build artifacts
+*.o
+*.d
+*.su
+*.cyclo
+*.map
+*.lst
+*.srec
+*.bin
+*.elf
+*.hex
+
+# Eclipse / CubeIDE caches (but keep project configs)
+# If you want to track project settings, comment these out
+# .project
+# .cproject
+# .settings/
+
+########################
+# OS / Tools           #
+########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
